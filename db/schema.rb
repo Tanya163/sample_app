@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_06_01_110106) do
 
   create_table "users", force: :cascade do |t|
@@ -18,5 +19,8 @@ ActiveRecord::Schema.define(version: 2021_06_01_110106) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> 3cc1883 (Finished Static pages)
 
 end

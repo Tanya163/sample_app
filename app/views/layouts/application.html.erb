@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
     <title><%= full_title(yield(:title)) %></title>
+=======
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+>>>>>>> 3cc1883 (Finished Static pages)
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= render 'layouts/rails_default' %>
     <%= render 'layouts/shim' %>
   </head>
 
+<<<<<<< HEAD
   <body>  
     <%= render 'layouts/header' %>
     <div class="container">
@@ -14,5 +19,10 @@
       <%= yield %>
       <%= render 'layouts/footer' %>
     </div>
+=======
+  <body>
+  <%#This code is responsible for inserting the contents of each page into the layout %>
+    <%= yield %>
+>>>>>>> 3cc1883 (Finished Static pages)
   </body>
 </html>

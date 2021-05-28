@@ -63,8 +63,11 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     ansi (1.5.0)
+<<<<<<< HEAD
     autoprefixer-rails (10.2.5.1)
       execjs (> 0)
+=======
+>>>>>>> 3cc1883 (Finished Static pages)
     bindex (0.8.1)
     bootsnap (1.7.5)
       msgpack (~> 1.0)

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 <<<<<<< HEAD
+<<<<<<< HEAD
   get 'users/new'
   root 'static_pages#home'
   get '/home', to: 'static_pages#home'
@@ -11,5 +12,12 @@ Rails.application.routes.draw do
   get 'static_pages/home'
   get 'static_pages/help'
 >>>>>>> 652ef3c (Added a static page controller)
+=======
+  root 'static_pages#home'
+  get 'static_pages/home'
+  get 'static_pages/help'
+  get 'static_pages/about'
+  get 'static_pages/contact'
+>>>>>>> 3cc1883 (Finished Static pages)
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
