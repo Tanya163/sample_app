@@ -1,14 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-## Getting started
 To get started with the app, clone the repo and then install the needed gems:
 ```
 $ gem install bundler -v 2.2.17
-$ bundle _2.2.17_ config set --local without 'production'
-$ bundle _2.2.17_ install
+$ bundle  config set --local without 'production'
+$ bundle install
 ```
 Next, migrate the database:
 ```
